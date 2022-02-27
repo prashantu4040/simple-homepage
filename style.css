@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0 20px;
+}
+
+.top::before {
+  content: "";
+  background-image: url(./images/bgimage.webp);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+  height: 150vh;
+}
+
+.navbar .logo {
+  width: 120px;
+  height: auto;
+  padding: 20px 70px;
+}
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.row {
+  display: flex;
+}
+
+.col-1 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 0;
+}
+
+.col-1 #head {
+  font-size: 60px;
+  margin: 10px;
+}
+
+.col-1 #para {
+  font-size: 30px;
+}
+
+.col-2 {
+  float: right;
+}
+.col-2 img {
+  width: 700px;
+  margin: 20px;
+}
+
+.row .col-1 button {
+  background-color: #242b2e;
+  padding: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.section .section-1 {
+  flex: 50%;
+  margin: 30px;
+}
+
+.section .section-2 {
+  flex: 50%;
+  margin: 30px;
+}
+
+.section h1 {
+  margin: 20px;
+  font-size: 40px;
+}
+
+.section button {
+  background-color: #e07c24;
+  padding: 10px;
+  border-radius: 20px;
+  color: #1d1b1b;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+
+.mid-row {
+  display: flex;
+}
+
+.mid-col-1 {
+  flex: 50%;
+}
+
+.mid-col-2 {
+  flex: 50%;
+}
+
+.info .mid-row .mid-col-1 .box {
+  width: 200px;
+  background: rgb(245, 245, 245);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 5px 5px 4px 5px #888888;
+}
+
+.info .mid-row .mid-col-1 .box span {
+  font-size: 40px;
+  text-align: center;
+}
+
+.info .mid-row .mid-col-1 .box h3 {
+  font-weight: 200;
+  text-align: center;
+}
+
+.info .mid-row .mid-col-2 {
+  margin: 200px 0;
+}
+
+.info .mid-row .mid-col-2 h1{
+  font-size: 50px;
+  margin: 20px;
+}
+
+.info .mid-row .mid-col-2 p{
+  font-size: 30px;
+}
+
