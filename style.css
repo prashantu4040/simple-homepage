@@ -152,3 +152,57 @@
   font-size: 30px;
 }
 
+.mid-part .mid-part-row{
+  display: flex;
+}
+
+.mid-part .mid-part-row .mid-part-col-1{
+  flex: 50%;
+}
+
+.mid-part .mid-part-row .mid-part-col-2{
+  flex: 50%;
+}
+
+.mid-part .mid-part-row .mid-part-col-1 h1{
+  font-size: 45px;
+  margin: 50px 0;
+}
+
+.mid-part .mid-part-row .mid-part-col-1 p{
+  background-color: red;
+  color: #ffffff;
+  font-size: 30px;
+  margin: 20px 50px;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.mid-part .mid-part-row .mid-part-col-1 .sol{
+  background-color: #242b2e;
+  padding: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.mid-part .mid-part-row .mid-part-col-1 .exp{
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.mid-part .mid-part-row .mid-part-col-2 .card{
+  font-size: 100px;
+  margin: 20px;
+}
