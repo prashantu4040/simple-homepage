@@ -5,9 +5,9 @@
 
 .top::before {
   content: "";
+  position: absolute;
   background-image: url(./images/bgimage.webp);
   background-size: cover;
-  position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -129,6 +129,7 @@
   box-shadow: 5px 5px 4px 5px #888888;
 }
 
+
 .info .mid-row .mid-col-1 .box span {
   font-size: 40px;
   text-align: center;
@@ -162,6 +163,9 @@
 
 .mid-part .mid-part-row .mid-part-col-2{
   flex: 50%;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .mid-part .mid-part-row .mid-part-col-1 h1{
@@ -205,4 +209,176 @@
 .mid-part .mid-part-row .mid-part-col-2 .card{
   font-size: 100px;
   margin: 20px;
+}
+
+.mid-part .mid-part-row .mid-part-col-2 #arrow{
+  font-size: 30px;
+}
+
+.mid-part .mid-part-row .mid-part-col-2 h3{
+  font-size: 30px;
+}
+
+.contact{
+  display: flex;
+  margin-top: 30px;
+}
+
+.contact .contact-col-1{
+  width: 30%;
+}
+
+.contact .contact-col-1 h1{
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.contact .contact-col-1 p{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.contact .contact-col-1 button{
+  background-color:red;
+  padding: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact .contact-col-2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .contact-col-2 .box{
+  width: 150px;
+  margin: 10px 50px;
+}
+
+.contact .contact-col-2 span{
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #e07c24;
+  margin: 10px 0;
+}
+
+.contact .contact-col-2 h3{
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+.knowledge{
+  margin-top: 50px;
+}
+
+.knowledge .hub h1{
+  font-size: 50px;
+  
+}
+
+.knowledge .hub p{
+  font-size: 20px;
+  margin: 20px ;
+}
+
+.knowledge .hub i{
+  float: right;
+}
+
+.knowledge .image{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.knowledge .image img {
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin: 0;
+}
+
+.knowledge .image a{
+  font-size: 20px;
+  margin: 0;
+  padding: 30px;
+}
+
+
+.workbox .work{
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #e07c24;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 800px;
+  margin: 80px 220px;
+}
+
+.workbox .content{
+  display: flex;
+}
+
+.workbox .para{
+  margin: 0;
+}
+
+.workbox .work .head{
+  font-size: 20px;
+}
+
+.workbox .content button{
+  background-color:rgb(36, 35, 35);
+  padding: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  width: 220px;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.footer .logo{
+  width: 60%;
+}
+.footer .logo img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 80px;
+}
+.footer .footer-col{
+  width: 100%;
+}
+.footer .lists{
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+}
+.footer .footer-col ul li{
+  list-style: none;
+  margin: 15px 0;
+}
+.footer .footer-col .footer-col-3 span i{
+  color: #1d1b1b;
+  background-color: red;
+  font-size: 20px;
+  padding: 0;
+  margin: 5px;
 }
