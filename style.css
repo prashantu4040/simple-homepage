@@ -310,7 +310,7 @@
 
 .knowledge .image a{
   font-size: 20px;
-  margin: 0;
+  margin: -30px;
   padding: 30px;
 }
 
@@ -377,8 +377,7 @@
 }
 .footer .footer-col .footer-col-3 span i{
   color: #1d1b1b;
-  background-color: red;
   font-size: 20px;
   padding: 0;
-  margin: 5px;
+  margin: 15px -10px;
 }
