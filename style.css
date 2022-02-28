@@ -363,6 +363,10 @@
   height: 100px;
   margin-bottom: 80px;
 }
+
+.footer .logo p{
+margin: -25px ;
+}
 .footer .footer-col{
   width: 100%;
 }
